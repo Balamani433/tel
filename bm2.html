@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balabits</title>
+    <link rel="icon" href="images/slack.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">    
+    <link rel="stylesheet" type="text/css" href="bm2.css">
+    <script src="https://kit.fontawesome.com/41a4fc5a13.js" crossorigin="anonymous"></script>
+</head>
+<body>
+         <header>
+          <nav>
+          <div class="logo"> <div class="logo-details">
+            <i class="fab fa-slack"></i><a href="https://balamani433.github.io/Balabits/bm1.html">Balabits</a></div></div>
+           <input type="checkbox" id="click">
+           <label for="click" class="menu-btn">
+           <i class="fas fa-bars"></i>
+           </label>
+           <ul>
+            <li><a href="https://balamani433.github.io/Balabits/bm1.html">Home</a><style>a:link{text-decoration: none;}</style></li>
+            <li><a href="https://balamani433.github.io/Balabits/bm3.html">New</a></li>
+            <li><a href="https://balamani433.github.io/Balabits/bm2.html">Popular</a></li>
+            <li><a href="https://balamani433.github.io/Balabits/">Watchlist</a></li>
+           
+           <form class="example">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            <input type="text" placeholder="Search for movies" name="search2">
+          </form>
+          <br>
+        </ul>
+ <div>
+           <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign in</button>
+
+         <div id="id01" class="modal">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <form class="modal-content" action="/action_page.php">
+               <div class="container">
+                  <h1>Balabits Sign in</h1>
+                  <p>Fill in this form to create an account.</p>
+                     <hr>
+                      <label for="email"><b>Email</b></label>
+                     <input type="text" placeholder="Email" name="email" required>
+
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Password" name="psw" required>
+
+                       <label for="psw-repeat"><b>Repeat Password</b></label>
+                       <input type="password" placeholder="Repeat Password" name="psw-repeat" required>                 
+                  <label>
+                      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                       </label>
+                                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                                <div class="clearfix">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                    <button type="submit" class="snbtn">Sign in</button>
+                                </div>
+                                </div>
+                            </form>
+                            </div>
+
+          </div>
+        
+        </nav>
+          </header>
+<br><br><br>
+
+          
+  <style>
+    .buttonload {
+      border: none;
+      color: #FFF;
+      padding: 12px 24px;
+      font-size: 16px; 
+    }
+    
+    </style>
+  <button class="buttonload"><i class="fa fa-spinner fa-spin"></i></button>
+
+
+<div>
+  <footer>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">© 2022 <a href="#">Balabits.</a>All rights reserved
+          <p>The Streaming Guide - - All external content remains the property of the rightful owner.
+        </div></div>
+    </footer>
+   </div>
+
+
+<script src="bm2.js"></script>    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
+<!-------------------------------------------------- The End ------------------------------------------------->
